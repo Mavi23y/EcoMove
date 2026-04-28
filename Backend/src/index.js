@@ -1,4 +1,5 @@
 const express = require('express');
+const routes = require('./routes/user.routes');
 const cors = require('cors');
 require('dotenv').config();
 
@@ -7,10 +8,11 @@ const app = express();
 // Middlewares
 app.use(cors());
 app.use(express.json()); 
+app.use(routes);
 
-// Rota de teste para ver se está funcionando
+// Rota de teste
 app.get('/', (req, res) => {
-  res.send('Servidor do EcoMove rodando com sucesso! 🚀');
+  res.send('Servidor do EcoMove rodando com sucesso!');
 });
 
 // Aqui é onde você vai importar suas rotas depois, ex:

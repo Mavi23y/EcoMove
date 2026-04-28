@@ -43,7 +43,7 @@ body{
 }
 
 #esquerda{
-    background-color: aquamarine;
+    background-color:rgb(136, 91, 91);
     width:20%;
     height:100%;
 }
@@ -56,6 +56,7 @@ body{
     flex-direction: column; 
     align-items: center;
     justify-content: center;
+   border-bottom: 2px solid white;
 }
 
 #logo{
@@ -87,7 +88,7 @@ body{
 #Atvd{
     width:100%;
     height:20%;
-    background-color: rgb(180, 37, 37);
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -97,18 +98,104 @@ body{
 .item-atvd {
     text-align: center;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+
+.item-atvd h1, .item-atvd p {
+    margin: 0;
+    padding: 0;
+}
+
 
 #Atvd h1 {
     font-size: 40px; 
     color: white;
-    margin-right: 40%;
 }
 
 #Atvd p {
-    font-size: 10px;
-    color: white;
+    font-size: 15px;
+    color: white; 
+}
 
+#Ebaixo{
+    width:100%;
+    height:40%;
+    background-color:black;
+    display: flex;
+    flex-direction: column; 
+    border-bottom: 2px solid white;
+}
+
+#btAtividade{
+    width:100%;
+    height:20%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#btnatvd{
+    width:100%;
+    height:100%;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    border-bottom: 2px solid white;
+}
+
+#EMbaixo{
+    width:100%;
+    height:19%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#EcoBaixo{
+    width: 100%;
+    height: 40%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#EcoMbaixo{
+    color: white;
+    font-size: 30px;
+}
+
+#icons{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(133, 87, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer{
+ width: 100%;
+    height: 20%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Tfooter{
+    color: white;
+    font-size: 15px;
 }
 
 #direita{

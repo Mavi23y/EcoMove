@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const userController = require('../controllers/userController');
 
-// Rota POST para criar usuário
-router.post('/', userController.createUser);
+router.post('/', (req, res) => {
+    res.send("Rota funcionando!");
+});
 
 module.exports = router;
